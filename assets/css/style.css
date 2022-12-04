@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prompt:wght@300&family=Raleway:wght@300;700&family=Roboto&display=swap');
+*{
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(117,117,117,1) 45%, rgba(190,190,190,1) 67%, rgba(255,255,255,1) 96%);}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+.title{
+    margin-left: 10px;
+    font-size: 20px;  
+    padding: 10px;
+    text-align: center;
+    color: gray;
+    text-shadow: 0px 2px 1px black;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.options ul {
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+}
+.options ul a {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid black;
+    border-style: none;
+    background-color: gray;
+    border-radius: 10px;   
+}
+.options ul a:hover{
+    background-color: rgb(87, 84, 84);
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#artist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+#artist h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.img-alberto{
+    display: flex;
+    justify-content: center;
+    
+}
+ .img-alberto img{
+    display: flex;
+    justify-content: center;
+    width:60%;
+    border: 5px solid black;
+}
+#artist p{
+    border: 3px solid black;
+    background-color: rgb(190, 189, 189);
+    text-shadow: 0px 2px 2px black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size:30px;
+    font-weight: bold;
+    
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+#images h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#images img {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+
+}
+.images-group{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#images p{
+    border: 3px solid black;
+    background-color: rgb(190, 189, 189);
+    text-shadow: 0px 2px 2px black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size:30px;
+    font-weight: bold;
+    
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer{
+   
+    display: flex;
+    justify-content: center;
+    
+}
+#contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#contato a {
+    text-decoration: none;
+}
+#contato a h2{
+color: black;
+font-size: 60px;
+display: flex;
+justify-content: center;
+padding: 10px;
+
+}
+
+
+
+
+@media (max-width:470px){
+    body{
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    #artist h2 {
+        font-size: 60px;
+    }
+    .img-alberto img {
+        width: 300px;
+    }
+    #artist p{
+        font-size: 25px;
+        flex-wrap: wrap;
+        
+    }
+    #images {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #images h2 {
+        font-size: 60px;
+        
+        
+        
+    }
+    #images p{
+        font-size: 25px;
+        flex-wrap: wrap;
+    }
+.images-group{
+   width:  300px
+}
+#contato{
+    width: 100vh;
+    margin: 10px;
+    padding: 0px;
+}
+#contato a h2{
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.options ul {
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.options a {
+    margin: 10px;
+    text-align: center;
+}
+}
